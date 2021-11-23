@@ -1,6 +1,8 @@
-body{
+body {
   font-family: sans-serif;
 }
+
+/*Hace que el área de contenido lleve la ventan del navegador*/
 html,
 
 .fullscreen{
@@ -11,6 +13,7 @@ html,
   width: 100%;
 }
 
+/*Centra en contenido en la ventana*/
 .container{
   margin: auto;
   text-align: center;

@@ -1,5 +1,5 @@
-var cacheName = 'holamundo-pwa'
-var filescache = [
+var cacheName = 'holamundo-pwa';
+var filesToCache = [
   '/',
   '/index.html',
   '/css/style.css',
@@ -19,7 +19,8 @@ self.addEventListener('install', function(e)
 
 /*Sirve contenido almacenado en cache sin conexión*/
 
-self.addEventListener('fetch', function(e){
+self.addEventListener('fetch', function(e)
+{
   e.respondWith(
     caches.match(e.request).then(function(response){
       return response || fetch(e.request);

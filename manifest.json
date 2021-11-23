@@ -1,41 +1,49 @@
 {
   "name": "Hola Mision TIC 2022",
   "short_name": "HolaPWA",
+  "lang": "es-CO",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+
   "icons": [
     {
       "src": "images/android-launchericon-48-48",
       "size": "48x48",
       "type": "images/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/android-launchericon-72-72",
       "size": "72x72",
       "type": "images/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/android-launchericon-96-96",
       "size": "96x96",
       "type": "images/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/android-launchericon-144-144",
       "size": "144x144",
       "type": "images/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/android-launchericon-192-192",
       "size": "192x192",
       "type": "images/png",
+      "purpose": "any maskable"
     },
     {
       "src": "images/android-launchericon-512-512",
       "size": "512x512",
       "type": "images/png",
+      "purpose": "any maskable"
     }
   ],
-  "lang": "es-CO",
-  "start_url": "index.html",
-  "background_color": "white",
-  "theme_color": "white",
-  "display": "standalone"
+
 }
